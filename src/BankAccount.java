@@ -15,6 +15,8 @@ public class BankAccount {
             throw new LimitException("не достоточна денег на счету", amount);
         }
         amount=amount-sum;
-        System.out.println("счета сняли "+sum);
+        System.out.println(" Со счета сняли "+sum);
+
     }
+
 }
